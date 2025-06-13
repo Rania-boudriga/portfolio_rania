@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rania Boudrigua - Portfolio Développeur Full-Stack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Rania BD<span class="accent">.</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Je suis <span class="accent">Rania Boudrigua</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Développeur Full-Stack</h2>
+                    <p class="hero-description">
+                        Spécialisée en WordPress, PHP & React Native avec plus de 5 ans d'expérience 
+                        dans le développement web moderne et la création d'applications sur mesure.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="mailto:boudriguarania@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/rania-boudrigua" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="tel:50843615" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Années d'expérience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction client</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <p class="section-subtitle">Passionnée par le développement web et les nouvelles technologies</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Développeur Full-Stack passionnée avec plus de 5 ans d'expérience dans le développement web. 
+                        Expertise en WordPress, PHP, et technologies front-end modernes. Expérience en enseignement 
+                        et forte capacité d'adaptation aux nouvelles technologies.
+                    </p>
+                    <p>
+                        J'ai eu l'opportunité de travailler sur des projets variés, allant de la simple intégration 
+                        de templates à des développements complets from scratch, en passant par la personnalisation 
+                        de plugins complexes.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">jQuery</span>
+                            <span class="skill-tag">SASS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">WordPress</span>
+                            <span class="skill-tag">Laravel</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">PrestaShop</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Outils</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">ACF</span>
+                            <span class="skill-tag">WooCommerce</span>
+                            <span class="skill-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Une sélection de mes réalisations récentes</p>
+            </div>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="advanced">Développement avancé</button>
+                <button class="filter-btn" data-filter="integration">Intégration</button>
+                <button class="filter-btn" data-filter="scratch">From scratch</button>
+                <button class="filter-btn" data-filter="template">Templates</button>
+            </div>
+
+
+        
+            <div class="projects-grid">
+                <!-- Développement avancé -->
+                <div class="project-card" data-category="advanced">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://fresk.app" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fresk.app</h3>
+                        <p class="project-description">
+                            Mise à jour de site avec intégration de fonctionnalités avancées et Custom Post Types
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Custom Post Types</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="advanced">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://navigo.club" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Navigo.club</h3>
+                        <p class="project-description">
+                            Développement de fonctionnalités avancées et intégration de Custom Post Types
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intégration -->
+                <div class="project-card" data-category="integration">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://urbandrivepro.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Urban Drive Pro</h3>
+                        <p class="project-description">
+                            Intégration de site et personnalisation de plugins de réservation selon les besoins du client
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Booking System</span>
+                            <span class="tech-tag">Custom Plugins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- From scratch -->
+                <div class="project-card" data-category="scratch">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://surescale.ai/contact" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Surescale.ai</h3>
+                        <p class="project-description">
+                            Développement complet from scratch d'une application web moderne
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Custom Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="scratch">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://tawapart.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tawapart.com</h3>
+                        <p class="project-description">
+                            Développement complet d'une plateforme web from scratch
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Templates -->
+                <div class="project-card" data-category="template">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://mygrowthly.be" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MyGrowthly.be</h3>
+                        <p class="project-description">
+                            Intégration et modification de templates prêts à l'emploi
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Template Customization</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="template">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://life-boosts.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Life-Boosts.com</h3>
+                        <p class="project-description">
+                            Personnalisation avancée de templates WordPress
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="template">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://duetodata.com/home-staging" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DuetoData</h3>
+                        <p class="project-description">
+                            Intégration et personnalisation de templates pour le home staging
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Custom Fields</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="template">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://jobylink.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">JobyLink.com</h3>
+                        <p class="project-description">
+                            Modification et intégration de templates pour plateforme d'emploi
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Job Board</span>
+                            <span class="tech-tag">Custom Post Types</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mon Parcours</h2>
+                <p class="section-subtitle">Une évolution constante dans le développement web</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Présent</div>
+                    <div class="timeline-content">
+                        <h3>Développeur Full-Stack</h3>
+                        <h4>DuetoDta</h4>
+                        <p>Développement de plugins WordPress spécifiques, personnalisation de WooCommerce et création de Custom Post Types.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Développeur Full-Stack</h3>
+                        <h4>Plogg Media</h4>
+                        <p>Intégration WordPress avec thèmes personnalisés, développement de fonctionnalités en PHP et JavaScript.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Enseignante Vacataire</h3>
+                        <h4>ISITCOM Hammam Sousse</h4>
+                        <p>Enseignement des technologies web aux étudiants et encadrement de projets pratiques.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Développeur Front-End</h3>
+                        <h4>Dev Evoluer</h4>
+                        <p>Intégration de sites WordPress, création de modules HTML-CSS avec SASS, développement responsive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Travaillons ensemble</h2>
+                <p class="section-subtitle">Prêt à donner vie à votre projet ? Contactez-moi !</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>boudriguarania@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Téléphone</h3>
+                            <p>+216 50 843 615</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localisation</h3>
+                            <p>Sousse, Tunisie</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Rania Boudrigua. Tous droits réservés.</p>
+                <div class="footer-social">
+                    <a href="mailto:boudriguarania@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/rania-boudrigua" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
+

@@ -425,6 +425,8 @@ section {
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     position: relative;
     overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .project-overlay {
